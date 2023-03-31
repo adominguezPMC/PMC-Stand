@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/1.0.loader.js";
+      var loaderUrl = buildUrl + "/1.1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/1.0.data.unityweb",
-        frameworkUrl: buildUrl + "/1.0.framework.js.unityweb",
-        codeUrl: buildUrl + "/1.0.wasm.unityweb",
+        dataUrl: buildUrl + "/1.1.data.unityweb",
+        frameworkUrl: buildUrl + "/1.1.framework.js.unityweb",
+        codeUrl: buildUrl + "/1.1.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PMC",
         productName: "PMC Stand",
@@ -89,7 +89,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        unityShowBanner();
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
